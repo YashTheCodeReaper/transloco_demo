@@ -1,0 +1,14 @@
+{
+  "headerComponent":{
+    "chooseLocale": "选择您的语言环境",
+    "i18nEnglish": "英语(United States)",
+    "i18nGerman": "德语(Standard)",
+    "i18nChinese": "中国人(Singapore)"
+  },
+  "captchaComponent": {
+    "securityVerification": "安全验证",
+    "formLabel": "输入验证码",
+    "formPlaceholder": "请输入上图中显示的字符",
+    "buttonText": "继续"
+  }
+}

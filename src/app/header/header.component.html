@@ -1,0 +1,12 @@
+<ng-container *transloco="let locale">
+  <header>
+    <div class="language-switcher">
+      <p>{{ locale('headerComponent.chooseLocale') }}</p>
+      <select (change)="changeLocale($event)" name="languages">
+        <option value="en">{{ locale('headerComponent.i18nEnglish') }}</option>
+        <option value="zh">{{ locale('headerComponent.i18nChinese') }}</option>
+        <option value="de">{{ locale('headerComponent.i18nGerman') }}</option>
+      </select>
+    </div>
+  </header>
+</ng-container>

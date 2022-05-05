@@ -1,0 +1,21 @@
+<div class="flex-container" *transloco="let locale">
+  <div class="captcha-card">
+    <img src="../../assets/images/tetherfi_logo.png" alt="tetherfi-logo" />
+    <h3>{{ locale('captchaComponent.securityVerification') }}</h3>
+    <div class="captcha-img-container">
+      <img
+        src="https://miro.medium.com/max/600/1*MHqIWdansPvRMEmUK2KNPw.png"
+        alt="captcha-example"
+      />
+    </div>
+    <div class="input-field">
+      <label for="captcha">{{ locale('captchaComponent.formLabel') }}: </label>
+      <input
+        type="text"
+        name="captcha"
+        placeholder="{{ locale('captchaComponent.formPlaceholder') }}"
+      />
+    </div>
+    <button>{{ locale('captchaComponent.buttonText') }}</button>
+  </div>
+</div>

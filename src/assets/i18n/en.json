@@ -1,0 +1,14 @@
+{
+  "headerComponent": {
+    "chooseLocale": "Choose your locale",
+    "i18nEnglish": "English(United States)",
+    "i18nGerman": "German(Standard)",
+    "i18nChinese": "Chinese(Singapore)"
+  },
+  "captchaComponent": {
+    "securityVerification": "Security verification",
+    "formLabel": "Enter the captcha",
+    "formPlaceholder": "Type the captcha as shown in the above image",
+    "buttonText": "Proceed"
+  }
+}
